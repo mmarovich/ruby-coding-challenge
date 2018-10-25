@@ -28,7 +28,7 @@ end
 # ((37, nil) ///// (99, (12, nil)))
 # (nill ///// (37, (99, (12, nil))
 
-# after this iteration, node1 because the new head.
+# after this iteration, node1 becomes the new head.
 
 def reverse_list(list, previous=nil)
   if list
