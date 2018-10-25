@@ -21,7 +21,7 @@ end
 
 # This mutative recursion is extremely difficult- at least, for me- to visualize, and it will probably be
 # super difficult for students to visualize too.  In order for me to begin to understand how this mutation
-# works, I had to follow node, and previous node at every recursive step:
+# works, I had to follow list, and previous at every recursive step:
 
 # (12, (99, (37, nil)) ///// nil)
 # ((99, (37, nil)) ///// (12, nil))
